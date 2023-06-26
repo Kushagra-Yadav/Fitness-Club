@@ -1,0 +1,24 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.header>img{
+width:10rem;
+height:3rem;
+}
+.header-items{
+    display: flex;
+    gap: 2rem;
+}
+.header-items>li{
+    list-style: none;
+    color: white;
+    font-weight:500;
+
+}
+.header-items>li:hover{
+    cursor: pointer;
+    color: var(--orange);
+}
