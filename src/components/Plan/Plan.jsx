@@ -5,7 +5,7 @@ import whiteTick from '../../assets/whiteTick.png'
 import rightarrow from '../../assets/rightArrow.png'
 const Plan = () => {
   return (
-    <div className='plan'>
+    <div className='plan' id='plan'>
         <div className='program-header'>
             <span className='text-stroke'>ready to start</span>
             <span>you journey</span>

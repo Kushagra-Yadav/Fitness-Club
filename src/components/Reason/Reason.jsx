@@ -10,13 +10,13 @@ import nb from '../../assets/nb.png'
 import './Reason.css'
 const Reason = () => {
   return (
-    <div className='reason'>
+    <div className='reason' id='reason'>
         <div className='reason-l'>
            <div className='images'>
-            <img src={image1}></img>
-            <img src={image2}></img>
-            <img src={image3}></img>
-            <img src={image4}></img>
+            <img src={image1}/>
+            <img src={image2}/>
+            <img src={image3}/>
+            <img src={image4}/>
 
            </div>
         </div>
